@@ -1,0 +1,18 @@
+name = input("Enter your user name: ")
+age = int(input("Enter your age: "))
+GPA = float(input("Enter your GPA: "))
+isStudent = input("Are you currently a student?(yes/no):")
+
+print("Enter your top 3 skills :")
+skills1 = input("Skills 1: ")
+skills2 = input("Skills 2: ")
+skills3 = input("Skills 3: ")
+
+print("\n===================================")
+print("           User Profile Card          ")
+print(" =====================================")
+print("Name:", name)
+print("Age:", age)
+print("GPA:", GPA)
+print("Is Student:", isStudent)
+print([skills1, skills2, skills3])
