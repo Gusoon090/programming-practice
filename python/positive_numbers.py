@@ -1,3 +1,4 @@
+# Add two positive numbers; otherwise multiply them.
 number1=float(input("Enter number:"))
 number2=float(input("Enter number:"))
 if number1>0 and number2>0:
